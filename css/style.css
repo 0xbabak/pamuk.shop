@@ -1,0 +1,360 @@
+body {
+    overflow-x: hidden;
+    background-color: #fff !important;
+}
+
+.border-15 {
+    border-radius: 15px !important;
+}
+
+.border-gradient-white-top {
+    border-top: 16px solid transparent;
+    border-image: linear-gradient(90deg, rgba(181, 181, 181, 0.0), rgba(181, 181, 181, 1), rgba(181, 181, 181, 0.0));
+    border-image-slice: 1;
+}
+
+.border-gradient-white-bottom {
+    border-bottom: 16px solid transparent;
+    border-image: linear-gradient(90deg, rgba(181, 181, 181, 0.0), rgba(181, 181, 181, 1), rgba(181, 181, 181, 0.0));
+    border-image-slice: 1;
+}
+
+.border-gradient-white-left {
+    border-left: 16px solid transparent;
+    border-image: linear-gradient(45deg, rgba(181, 181, 181, 0.0), rgba(181, 181, 181, 1), rgba(181, 181, 181, 0.0));
+    border-image-slice: 1;
+}
+
+.border-gradient-white-right {
+    border-right: 16px solid transparent;
+    border-image: linear-gradient(45deg, rgba(181, 181, 181, 0.0), rgba(181, 181, 181, 1), rgba(181, 181, 181, 0.0));
+    border-image-slice: 1;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 18px;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.h-70 {
+    height: 70% !important;
+}
+
+.border-orange {
+    color: inherit;
+    -webkit-transition: border-bottom 0.1s ease-in;
+}
+
+.border-orange:hover {
+    color: #F98317 !important;
+    border-bottom: 2px solid #F98317 !important;
+    padding-bottom: 10px;
+    -webkit-transition: border-bottom 0.1s ease-in;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-orange {
+    color: #F98317 !important;
+    background-color: rgba(249, 131, 23, 6%) !important;
+    border-radius: 10px !important;
+}
+
+.shadow-box-product {
+    box-shadow: 0 0 180px rgba(144, 144, 144, 22%);
+}
+
+.shadow-list-product {
+    box-shadow: 0 4px 180px rgba(144, 144, 144, 22%);
+}
+
+#timer-div {
+    background-image: url(../images/Frame-20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: initial;
+    height: 700px;
+}
+
+.h-379 {
+    height: 379px;
+}
+
+.w-607 {
+    width: 607px;
+}
+
+.btn-carusel-custome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    /*not working */
+    pointer-events: auto;
+}
+
+.btn-submit-oreng {
+    color: #fff !important;
+    background-color: rgb(249, 131, 23) !important;
+}
+
+.btn-social-oreng {
+    color: #838383 !important;
+    background-color: #fff !important;
+    border: solid 0.17px #838383;
+}
+
+.btn-social-oreng:hover {
+    color: #fff !important;
+    background-color: rgb(249, 131, 23) !important;
+    border: solid 0.17px rgb(249, 131, 23);
+}
+
+.list-footer-items {
+    line-height: 50px;
+}
+
+.list-footer-items::before {
+    content: '';
+    background: url('../images/Star-1-black.png');
+    width: 10px;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.bg-dark-50 {
+    background-color: rgba(030, 030, 030, 0.87) !important;
+}
+
+#item-1-nav-expand {
+    display: none;
+}
+
+#item-2-nav-expand {
+    display: none;
+}
+
+#item-3-nav-expand {
+    display: none;
+}
+
+#item-4-nav-expand {
+    display: none;
+}
+
+#item-5-nav-expand {
+    display: none;
+}
+
+#item-6-nav-expand {
+    display: none;
+}
+
+.input-orange {
+    border: 0.5 solid #3D3D3D !important;
+    transition: background-color 0.15s, border-color 0.15s;
+    border-radius: 8px !important;
+
+}
+
+.input-orange:checked {
+    background-color: #F98317 !important;
+    border-color: #F98317 !important;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.border-radius-6 {
+    border-radius: 6px !important;
+}
+
+.border-0-2 {
+    border-width: 0.2px !important;
+    border-style: solid !important;
+}
+
+.border-838383 {
+    border-color: #838383 !important;
+}
+
+
+.navigation-link {
+    background-color: transparent !important;
+    border-width: 0px !important;
+    color: #1E1E1E !important;
+    border-radius: 8px !important;
+}
+
+.navigation-link:hover {
+    background-color: #F98317 !important;
+    border-width: 0px !important;
+    color: #fff !important;
+
+}
+
+.navigation-link:active {
+    background-color: #F98317 !important;
+    border-width: 0px !important;
+    color: #fff !important;
+
+}
+
+.color-3D3D3D {
+    color: #3D3D3D !important;
+}
+
+.description-hl40 {
+    line-height: 40px !important;
+}
+
+.bg-F98317-30 {
+    background-color: rgba(249, 131, 23, 6%) !important;
+}
+
+.color-F98317 {
+    color: #F98317 !important;
+}
+
+.border-10 {
+    border-radius: 10px !important;
+}
+
+.box-color-border-right {
+    border: 0;
+    border-right: 1px solid #838383 !important;
+    border-spacing: 15px !important;
+}
+
+.size-button {
+    background-color: transparent !important;
+    border: 0.5px solid #3D3D3D !important;
+    color: #3D3D3D !important;
+    border-radius: 8px !important;
+}
+
+.size-button:hover {
+    background-color: rgba(249, 131, 23, 6%) !important;
+    color: #F98317 !important;
+    border-color: rgba(249, 131, 23, 6%) !important;
+}
+
+.size-button-div::before {
+    content: "";
+    border-right: 0.45px solid #3d3d3d;
+    margin-right: 10px !important;
+}
+
+#numberproduct::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+}
+
+.text-orange {
+    color: #F98317 !important;
+}
+
+.bg-orange {
+    background-color: #F98317 !important;
+    color: #fff !important;
+}
+
+.bg-FCFCFC {
+    background-color: #FCFCFC !important;
+}
+
+.bg-EAEAEA {
+    background-color: rgba(234, 234, 234, 13%) !important;
+}
+
+#navcollapse {
+    position: fixed;
+    z-index: 10000;
+    width: 400px !important;
+    top: 0 !important;
+    padding-top: 0 !important;
+    height: 100vh !important;
+}
+
+.orange-btn-F98317 {
+    background-color: #F98317 !important;
+    color: #fff !important;
+}
+
+.text-838383 {
+    color: #838383 !important;
+}
+
+.border-838383 {
+    border-color: #838383 !important;
+}
+
+.text-A717FF {
+    color: #A717FF !important;
+}
+
+.text-11CE00 {
+    color: #11CE00 !important;
+}
+
+.text-FF1717 {
+    color: #FF1717 !important;
+}
+
+.text-ECB800 {
+    color: #ECB800 !important;
+}
+
+.card-banki {
+    background-image: url(../images/card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-width: 510px;
+    min-height: 328px;
+    max-width: 510px;
+    max-height: 328px; */
+}
+.bg-F6F6F6{
+    background-color: #F6F6F6 !important;
+}
+.line-height-30 {
+    line-height: 30px !important;
+}
+/*
+Web Design BY :)
+┌────────────────────┐
+│      CLAROTM       │
+│  ───────────────   │
+│     Contact Me     │
+│                    │
+│    0998 1040 774   │
+│                    │
+│    0939 5574 353   │
+│   ───────────────  │
+│     iseokar.ir     │
+│                    │
+│     ClaroTM.ir     │
+│                    │
+└────────────────────┘
+*/

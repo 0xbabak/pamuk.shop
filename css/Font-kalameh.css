@@ -1,0 +1,18 @@
+/*Amirreza Heydari
+Tel : 09981040774*/
+@font-face {
+    font-family: danapro;
+    src: url("../Fonts/kalameh/_Woff2/KalamehWeb\(FaNum\)-Regular.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: danapro;
+    src: url("../Fonts/kalameh/_Woff2/KalamehWeb\(FaNum\)-Bold.woff2") format("woff2");
+    font-weight: bold;
+}
+
+body {
+    font-family: danapro !important;
+}
